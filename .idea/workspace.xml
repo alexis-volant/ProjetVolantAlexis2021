@@ -19,26 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d41fd0f-5336-4788-887c-1df4f7cc9e6e" name="Default Changelist" comment="Connexion à la base de données">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/css/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/js/comparaison.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/admin_liste_include.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/admin_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/Connexion.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/Theme.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/ThemeBD.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/pages/accueil_admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index_.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/php/public_footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/php/public_menu.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/accueil.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/page404.php" afterDir="false" />
+    <list default="true" id="3d41fd0f-5336-4788-887c-1df4f7cc9e6e" name="Default Changelist" comment="ajout images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_.php" beforeDir="false" afterPath="$PROJECT_DIR$/index_.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/php/public_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/php/public_footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/php/public_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/php/public_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/accueil.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +77,9 @@
       <workItem from="1613115993052" duration="147000" />
       <workItem from="1614869854051" duration="747000" />
       <workItem from="1614929601833" duration="2701000" />
+      <workItem from="1615215416056" duration="162000" />
+      <workItem from="1615723166854" duration="9254000" />
+      <workItem from="1615732986447" duration="2003000" />
     </task>
     <task id="LOCAL-00001" summary="Creéation de l'arborescence des fichiers">
       <created>1614870261515</created>
@@ -97,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614870261515</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Connexion à la base de données">
+      <created>1615215460881</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615215460881</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ajout images">
+      <created>1615215501439</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615215501439</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,7 +123,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creéation de l'arborescence des fichiers" />
     <MESSAGE value="Connexion à la base de données" />
-    <option name="LAST_COMMIT_MESSAGE" value="Connexion à la base de données" />
+    <MESSAGE value="ajout images" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout images" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1613116093856">
@@ -129,9 +135,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="988" y="336" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1612797329058" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614870524799">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1615215514409">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1615215514409" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1536.824@0.0.1920.1040" timestamp="1614870524799" />
   </component>
 </project>
