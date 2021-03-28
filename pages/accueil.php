@@ -2,13 +2,10 @@
 <br>
 <br>
 <div class="container text-center">
-    <div class="video">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/wWwozcTnmjQ" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-    </div>
-
-    <br>
+        <video width="700" controls preload="metadata" >
+            <source src="admin/images/opening.mp4#t=0.1"
+                    type="video/mp4">
+        </video>
 
     <!-- <div class="img-comp-container">
         <div class="img-comp-img">
@@ -19,6 +16,12 @@
         </div>
     </div> -->
 </div>
+
+<?php
+$ecurie = new EcurieBD($cnx);
+$liste_ecurie = $ecurie->getEcurie();
+$nbr = count($liste_ecurie);
+?>
 
 <script src="admin/lib/js/comparaison.js"></script>
 <script>

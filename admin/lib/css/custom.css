@@ -1,3 +1,4 @@
+/* MENU */
 .navbar-custom {
     background-color: #454545;
 }
@@ -8,12 +9,32 @@
     color: #c81e1e;
 }
 
-.nav-link:hover:not(.active){
-    color: #fe001A;
-}
-
 .active{
     color: #fe001A;
 }
 
+.nav-link:hover:not(.active){
+    color: #fe001A;
+}
 
+/* CARD*/
+.card {
+    padding: 1em;
+    border: none;
+    text-align: center;
+    background: lightgrey;
+}
+
+.lien{
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.lien:hover{
+    color: #fe001A;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+}
+
+/* video */

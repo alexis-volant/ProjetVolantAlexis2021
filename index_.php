@@ -51,9 +51,9 @@ $cnx = Connexion::getInstance($dsn, $user, $password);
             $path = "./pages/" . $_SESSION['page'];
             // print "path: " . $path . "<br>";
             if (file_exists($path)) {
-                include($path);
+                include ($path);
             } else {
-                include("./pages/page404.php");
+                include ("./pages/page404.php");
             }
             ?>
         </div>
