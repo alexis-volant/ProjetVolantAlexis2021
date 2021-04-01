@@ -15,7 +15,7 @@ else{ $page = 'accueil.php';}?>
                     <a class="nav-link <?php if($page=='ecurie.php'){echo 'active';}?>" href="index_.php?page=ecurie.php">Ecuries</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php if($page=='pilote.php'){echo 'active';}?>" href="#">Pilotes</a>
+                    <a class="nav-link <?php if($page=='pilote.php'){echo 'active';}?>" href="index_.php?page=pilote.php">Pilotes</a>
                 </li>
             </ul>
             <ul class="navbar-nav r-3 navbar-nav-scroll" style="--bs-scroll-height: 100px;">

@@ -19,26 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d41fd0f-5336-4788-887c-1df4f7cc9e6e" name="Default Changelist" comment="création page d'accueil">
-      <change afterPath="$PROJECT_DIR$/admin/lib/js/fonction_jsquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/Ecurie.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/EcurieBD.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/Pilote.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/PiloteBD.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/connexion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/ecurie.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/inscription.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/page_ecurie.php" afterDir="false" />
+    <list default="true" id="3d41fd0f-5336-4788-887c-1df4f7cc9e6e" name="Default Changelist" comment="Ajout page de connexion">
+      <change afterPath="$PROJECT_DIR$/pages/page_pilote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/pilote.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/php/classes/Theme.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/php/classes/ThemeBD.class.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index_.php" beforeDir="false" afterPath="$PROJECT_DIR$/index_.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/php/public_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/php/public_footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/php/classes/EcurieBD.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/classes/EcurieBD.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/php/classes/PiloteBD.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/classes/PiloteBD.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/php/public_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/php/public_menu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/ecurie.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ecurie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,21 +73,6 @@
       <recent name="D:\wamp64\www\gitapp\Projet2021" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -120,7 +93,9 @@
       <workItem from="1615839280415" duration="3375000" />
       <workItem from="1615888529922" duration="13592000" />
       <workItem from="1616922896770" duration="8130000" />
-      <workItem from="1616933236934" duration="8363000" />
+      <workItem from="1616933236934" duration="8415000" />
+      <workItem from="1617222031248" duration="5650000" />
+      <workItem from="1617266049102" duration="694000" />
     </task>
     <task id="LOCAL-00001" summary="Creéation de l'arborescence des fichiers">
       <created>1614870261515</created>
@@ -150,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615735033088</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Ajout page de connexion">
+      <created>1616944931288</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616944931288</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +155,8 @@
     <MESSAGE value="Connexion à la base de données" />
     <MESSAGE value="ajout images" />
     <MESSAGE value="création page d'accueil" />
-    <option name="LAST_COMMIT_MESSAGE" value="création page d'accueil" />
+    <MESSAGE value="Ajout page de connexion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout page de connexion" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

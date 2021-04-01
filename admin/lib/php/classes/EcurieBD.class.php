@@ -25,6 +25,22 @@ class EcurieBD extends Ecurie {
         //var_dump($_data);
     }
 
+
+    public function getEcurieOrder(){
+        $query="SELECT * FROM ecurie order by idecurie";
+        $_resultset = $this->_db->prepare($query);
+        $_resultset->execute();
+
+        while($d = $_resultset->fetch()){
+            $_data[] =  new Ecurie($d);
+        }
+        //var_dump($_data);
+        return $_data;
+
+        //$_data = $_resultset->fetchAll();
+        //var_dump($_data);
+    }
+
     public function getEcurieByid($idecurie){
         try{
             $query="select * from ecurie where idecurie = :idecurie";
