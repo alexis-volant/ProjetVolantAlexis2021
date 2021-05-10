@@ -10,6 +10,7 @@ if (isset($_GET['idecurie'])) {
 $commentaire = new CommentaireBD($cnx);
 if (isset($_GET['idecurie'])) {
     $liste_comm = $commentaire->getCommByEcurie($_GET['idecurie']);
+
     $temp=count($liste_comm);
     if($temp!=0){
     $nbr = $temp;}
@@ -28,18 +29,28 @@ if (isset($_GET['idecurie'])) {
 <br><br>
 
 
-<div class="container">
-    <center>
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm w-75 h-md-250">
-            <div class="col-auto d-none d-lg-block">
-                <img class="card-img-top" src="admin/images/<?php print $ecu[0]->logo ?>" alt="Image Ecurie">
-            </div>
-            <div class="col p-4 d-flex flex-column position-static">
-                <h3 class="mb-5  underline"><?php print $ecu[0]->nomecurie ?></h3>
 
+<div class="container logoecurie">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm w-50 h-md-250">
+            <div class="col-auto d-none d-lg-block">
+                <img src="admin/images/<?php print $ecu[0]->logo ?>" alt="Image Ecurie" height="400px" width="200px">
+            </div>
+            <div class="col p-4 d-flex flex-column position-static bas">
+                <h3 class="mb-5"><?php print $ecu[0]->nomecurie ?></h3>
+                <table class="table right">
+                    <tbody>
+                    <tr>
+                        <th scope="row">Nom Ecurie</th>
+                        <td>
+                                    <span name="plateforme" id="<?php print $ecu[0]->nomecurie ?>">
+                                    <?php print $ecu[0]->nomecurie ?>
+                                    </span>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
-    </center>
 </div>
 
 <div align="center">
@@ -57,11 +68,8 @@ if (isset($_GET['idecurie'])) {
     initComparisons();
 </script>
 
-<?php if($temp != 0){?>
+<?php if($temp > 0){?>
 <div class="album py-5">
-    <?php
-    for($i =0;$i <$nbr;$i++) {
-        ?>
         <div class="container">
             <div class="row">
                 <?php
@@ -78,7 +86,6 @@ if (isset($_GET['idecurie'])) {
                 <?php } ?>
             </div>
         </div>
-    <?php } ?>
 </div>
 <?php } ?>
 

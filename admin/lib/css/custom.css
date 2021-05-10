@@ -74,3 +74,11 @@
     border: 3px solid black;
     background-color: dimgray;
 }
+
+.bas{
+    background-color: grey;
+    text-align: center;
+}
+.logoecurie{
+    alignment: left;
+}

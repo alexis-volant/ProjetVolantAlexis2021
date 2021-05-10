@@ -14,6 +14,9 @@ else{ $page = 'accueil.php';}?>
             <li class="nav-item">
                 <a class="nav-link <?php if($page=='ajout_pilote.php'){echo 'active';}?>" href="index_.php?page=ajout_pilote.php">Ajout Pilote</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link <?php if($page=='gestion_comm.php'){echo 'active';}?>" href="index_.php?page=gestion_comm.php">Gestion commentaire</a>
+            </li>
             </ul>
 
             <ul class="navbar-nav r-3 navbar-nav-scroll" style="--bs-scroll-height: 100px;">

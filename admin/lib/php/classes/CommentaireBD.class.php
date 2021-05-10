@@ -29,6 +29,18 @@ class CommentaireBD extends Commentaire {
         }
     }
 
+    public function deleteComm($id_comm)
+    {
+        try {
+            $query = "DELETE FROM commentaire WHERE id_comm= :id_comm";
+            $_resultset = $this->_db->prepare($query);
+            $_resultset->bindValue(':id_comm', $id_comm);
+            $_resultset->execute();
+        } catch (PDOException $e) {
+            print $e->getMessage();
+        }
+    }
+
     public function getComm(){
         $query="SELECT * FROM commentaire";
         $_resultset = $this->_db->prepare($query);
@@ -51,10 +63,20 @@ class CommentaireBD extends Commentaire {
             $_resultset->bindValue(':idecurie',$idecurie);
             $_resultset->execute();
 
+
             while($d = $_resultset->fetch()){
                 $_data[] = new Commentaire($d);
             }
-            return $_data;
+
+            if(empty($_data)){
+
+                $_data=[];
+                return $_data;
+            }
+            else{
+            return $_data; }
+
+
         }catch(PDOException $e){
             print 'Echec de la requete'.$e->getMessage();
         }

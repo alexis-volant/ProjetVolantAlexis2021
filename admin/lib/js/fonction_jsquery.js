@@ -133,50 +133,25 @@ $(document).ready(function() {
         setTimeout(function(){location.reload()}, 1000);
     });
 
-
-//$('#submit_id').remove();
-
-    /*$('#id').blur(function(){
-        //prelevement de la valeur entrée dans l'input
-        var id= $(this).val(); //val() : uniquement pour input
-        alert("id : "+id);
-        var parametre = "idpilote="+id;
+    // tableau  supp commentaire
+    $(".deletecomm").click( function()
+    {
+        var id_comm = $(this).attr("id");
+        alert(id_comm);
+        var parametre = 'id_comm=' + id_comm;
+        alert(parametre);
 
         $.ajax({
             type: 'GET',
             data: parametre,
-            datatype: 'json',
-            url: './admin/lib/php/ajax/ajaxDetailPilote.php',
-            success: function (data) {
-                //console.log(data);
-                $('#id_produit').html("<br><br>" + data[0].nom_produit + "<br><br>" + data[0].description);
-                $('#image_produit').html('<img src="admin/images/'+data[0].photo+'" alt="Illustration">');
+            dataType: 'text',
+            url: './lib/php/ajax/ajaxDeleteComm.php',
+            succes: function (data) {
+                console.log(data);
             }
-
         });
+        setTimeout(function(){location.reload()}, 500);
     });
 
-    $('#choix_produit').change(function (){
-        //récup la valeur de l'attribut name (php)
-        var attribut = $(this).attr('name');
-        //alert("id_produit : "+attribut);
-        var id =$(this).val();
-        var parametre ="id_produit="+id;
-        $.ajax({
-            type: 'GET',
-            data: parametre,
-            datatype: 'json',
-            url: './admin/lib/php/ajax/ajaxDetailProduit.php',
-            success: function (data) {
-                //console.data(data);
-                $('#id_produit').html("<br><br>" + data[0].nom_produit + "<br><br>" + data[0].description);
-                $('#image_produit').html('<img src="admin/images/'+data[0].photo+'" alt="Illustration">');
-            }
-
-        });
-
-
-
-    });*/
 
 });
