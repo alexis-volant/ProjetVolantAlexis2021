@@ -24,7 +24,7 @@
     /*set the appearance of the slider:*/
     width: 40px;
     height: 40px;
-    background-color: #2196F3;
+    background-color: red;
     opacity: 0.7;
     border-radius: 50%;
 }
@@ -38,4 +38,10 @@ body{
 video{
     border: 6px inset #fe001A;
     border-radius: 8px;
+}
+
+
+h1{
+    text-align: center;
+    border-radius: 10%;
 }

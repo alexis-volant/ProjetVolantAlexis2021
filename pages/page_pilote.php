@@ -20,7 +20,7 @@ if(isset($_GET['idpilote'])){
             <div class="col-auto d-none d-lg-block">
                 <img class="card-img-top" src="admin/images/<?php print $pil[0]->photo?>" alt="Image Pilote">
             </div>
-            <div class="col p-4 d-flex flex-column position-static">
+            <div class="col p-4 d-flex flex-column position-static bg_pilote">
                 <h3 class="mb-5  underline"><?php print $pil[0]->nompilote?></h3>
                 <h3 class="mb-5  underline"><?php print $pil[0]->abrv?></h3>
                 <h3 class="mb-5  underline"><?php print $pil[0]->idpilote?></h3>

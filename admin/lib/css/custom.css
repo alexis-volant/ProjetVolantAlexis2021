@@ -1,9 +1,11 @@
 /* MENU */
 .navbar-custom {
-    background-color: #454545;
+    background:url("../../images/F1 2020.png") center;
+
 }
 .nav-link{
     color: antiquewhite;
+    font-size: 130%;
 }
 .nav-link:hover{
     color: #c81e1e;
@@ -24,6 +26,23 @@
     text-align: center;
     background: lightgrey;
 }
+.col-container{
+    display: table;
+    width: 100%;
+    padding: 3em;
+    border: none;
+}
+.col{
+    display: table-cell;
+}
+@media only screen and (max-width: 800px){
+    .col{
+        display: block;
+        width: 100%;
+    }
+}
+
+
 
 .lien{
     color: black;
@@ -37,4 +56,21 @@
 
 }
 
-/* video */
+.bg_pilote{
+    background-color: #50494b;
+}
+
+.table{
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 75%;
+    background-color: darkgray;
+    color: white;
+}
+.table tr:nth-child(even){
+    background-color: grey;
+}
+.titre{
+    border: 3px solid black;
+    background-color: dimgray;
+}

@@ -1,1 +1,1 @@
-<?php
+<h1>ACCUEIL ADMIN</h1>

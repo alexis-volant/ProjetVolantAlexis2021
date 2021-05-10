@@ -2,7 +2,7 @@
 <?php
 //index public
 session_start();
-include('./admin/lib/php/admin_liste_include.php');
+include('./lib/php/admin_liste_include.php');
 $cnx = Connexion::getInstance($dsn, $user, $password);
 ?>
 
@@ -19,11 +19,11 @@ $cnx = Connexion::getInstance($dsn, $user, $password);
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="admin/lib/css/style.css"/>
-    <link rel="stylesheet" href="admin/lib/css/Custom.css"/>
+    <link rel="stylesheet" href="lib/css/style.css"/>
+    <link rel="stylesheet" href="lib/css/Custom.css"/>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./admin/lib/js/fonction_jsquery.js"></script>
+    <script src="./lib/js/fonction_jsquery.js"></script>
 </head>
 
 <body>
@@ -34,7 +34,7 @@ $cnx = Connexion::getInstance($dsn, $user, $password);
     <section id="header">
         <nav>
             <?php
-            $path = "./lib/php/public_menu.php";
+            $path = "./lib/php/admin_menu.php";
             if (file_exists($path)) {
                 include($path);
             }
@@ -45,7 +45,7 @@ $cnx = Connexion::getInstance($dsn, $user, $password);
         <div id="main">
             <?php
             if (!isset($_SESSION['page'])) {
-                $_SESSION['page'] = "accueil.php";
+                $_SESSION['page'] = "accueil_admin.php";
             }
             if (isset($_GET['page'])) {
                 //si on a un param page dans l'url

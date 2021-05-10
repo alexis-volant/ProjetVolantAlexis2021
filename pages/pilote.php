@@ -20,7 +20,7 @@ $nbr = count($liste_pilote);
                 <?php
                 for($i =0;$i <$nbr;$i++) {
                     ?>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="card mb-4 box-shadow">
                             <img class="card-img-top" src="admin/images/<?php print $liste_pilote[$i]->photo?>" alt="Image pilote">
                             <div class="card-body">

@@ -19,14 +19,42 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d41fd0f-5336-4788-887c-1df4f7cc9e6e" name="Default Changelist" comment="Ajout page de connexion">
-      <change afterPath="$PROJECT_DIR$/pages/page_pilote.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/pilote.php" afterDir="false" />
+    <list default="true" id="3d41fd0f-5336-4788-887c-1df4f7cc9e6e" name="Default Changelist" comment="Ajout page pilote et qq photo">
+      <change afterPath="$PROJECT_DIR$/admin/index_.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/ajax/ajaxAjoutPilote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/ajax/ajaxDeletePilote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/ajax/ajaxDetailPilote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/ajax/ajaxUpdatePilote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/Admin.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/AdminBD.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/Client.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/classes/ClientBD.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/lib/php/verifier_connexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/pages/ajout_pilote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/pages/connexion_admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/pages/deconnexion.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/pages/gestion_pilote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/pages/page404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/deconnexion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/js/fonction_jsquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/js/fonction_jsquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/php/admin_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/admin_menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/lib/php/classes/EcurieBD.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/classes/EcurieBD.class.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/lib/php/classes/PiloteBD.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/classes/PiloteBD.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/pages/accueil_admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/pages/accueil_admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_.php" beforeDir="false" afterPath="$PROJECT_DIR$/index_.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/php/public_footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/php/public_footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/php/public_menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/lib/php/public_menu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/connexion.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/connexion.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/ecurie.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/ecurie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/inscription.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/inscription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/page_ecurie.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page_ecurie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/page_pilote.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page_pilote.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/pilote.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/pilote.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +84,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/lib/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -66,7 +94,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wamp64\www\gitapp\Projet2021\admin\lib\js" />
+      <recent name="D:\wamp64\www\gitapp\Projet2021\admin" />
+      <recent name="D:\wamp64\www\gitapp\Projet2021\admin\pages" />
+      <recent name="D:\wamp64\www\gitapp\Projet2021\admin\lib\php" />
+      <recent name="D:\wamp64\www\gitapp\Projet2021\admin\lib\php\classes" />
+      <recent name="D:\wamp64\www\gitapp\Projet2021\admin\lib\php\ajax" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\wamp64\www\gitapp\Projet2021\pages" />
@@ -95,7 +127,19 @@
       <workItem from="1616922896770" duration="8130000" />
       <workItem from="1616933236934" duration="8415000" />
       <workItem from="1617222031248" duration="5650000" />
-      <workItem from="1617266049102" duration="694000" />
+      <workItem from="1617266049102" duration="750000" />
+      <workItem from="1618766385292" duration="8415000" />
+      <workItem from="1618832777136" duration="21000" />
+      <workItem from="1619427083070" duration="5995000" />
+      <workItem from="1619444147452" duration="6831000" />
+      <workItem from="1619620228357" duration="13922000" />
+      <workItem from="1619697465569" duration="1030000" />
+      <workItem from="1619698599712" duration="8501000" />
+      <workItem from="1619712704841" duration="4921000" />
+      <workItem from="1619792775476" duration="618000" />
+      <workItem from="1620387787981" duration="5608000" />
+      <workItem from="1620398375862" duration="3455000" />
+      <workItem from="1620585918578" duration="185000" />
     </task>
     <task id="LOCAL-00001" summary="Creéation de l'arborescence des fichiers">
       <created>1614870261515</created>
@@ -132,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616944931288</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ajout page pilote et qq photo">
+      <created>1617266797517</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617266797517</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +207,8 @@
     <MESSAGE value="ajout images" />
     <MESSAGE value="création page d'accueil" />
     <MESSAGE value="Ajout page de connexion" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout page de connexion" />
+    <MESSAGE value="Ajout page pilote et qq photo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout page pilote et qq photo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

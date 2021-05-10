@@ -1,6 +1,9 @@
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 <div class="container text-center">
         <video width="700" controls preload="metadata" >
             <source src="admin/images/opening.mp4#t=0.1"
