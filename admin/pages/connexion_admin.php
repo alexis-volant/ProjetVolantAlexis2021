@@ -1,4 +1,4 @@
-<br><br><br><br><h1>Accueil admin</h1>
+<br><br><br><br><h1>Accueil admin</h1><br><br>
 
 <?php
 if (isset($_POST['submit'])) {

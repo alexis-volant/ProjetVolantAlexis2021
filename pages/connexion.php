@@ -1,6 +1,7 @@
 <br>
 <br>
 <br>
+<h3>Connexion</h3>
 <?php
 if (isset($_POST['submit'])) {
     extract($_POST, EXTR_OVERWRITE);
@@ -50,8 +51,6 @@ if (isset($message) && !isset($_SESSION['client'])) {
 ?>
 
 <br>
-<br>
-<br>
 
 <div class="container" style="width: 20%">
     <form action="<?php print $_SERVER['PHP_SELF']; ?>" method="post">
@@ -69,9 +68,14 @@ if (isset($message) && !isset($_SESSION['client'])) {
 </div>
 
 <div class="container" style="width: 20%">
-    <a href="index_.php?page=inscription.php">Pas encore de compte ? </a>
     <br>
-    <a href="admin/index_.php?page=connexion_admin.php">Portail Admin</a>
+    <a class="lien" href="index_.php?page=inscription.php">Pas encore de compte ? </a>
+    <br>
+    <br>
+    <a class="lien" href="admin/index_.php?page=connexion_admin.php">Portail Admin</a>
 </div>
+<br>
+<br>
+<br>
 
 

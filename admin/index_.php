@@ -43,6 +43,8 @@ $cnx = Connexion::getInstance($dsn, $user, $password);
     </section>
     <section id="contenu">
         <div id="main">
+            <br><br>
+            <br>
             <?php
             if (!isset($_SESSION['page'])) {
                 $_SESSION['page'] = "accueil_admin.php";

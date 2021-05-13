@@ -1,9 +1,5 @@
 <br>
-<br>
-<br>
-<br>
-<br>
-<h1>Ecurie</h1>
+<h1>ECURIES</h1>
 
 <?php
 $ecurie = new EcurieBD($cnx);

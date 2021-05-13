@@ -1,21 +1,23 @@
 /* MENU */
 .navbar-custom {
-    background:url("../../images/F1 2020.png") center;
+    background: url("../../images/F1 2020.png") center;
 
 }
-.nav-link{
-    color: antiquewhite;
+
+.nav-link {
+    color: white;
     font-size: 130%;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     color: #c81e1e;
 }
 
-.active{
+.active {
     color: #fe001A;
 }
 
-.nav-link:hover:not(.active){
+.nav-link:hover:not(.active) {
     color: #fe001A;
 }
 
@@ -26,59 +28,138 @@
     text-align: center;
     background: lightgrey;
 }
-.col-container{
+
+.col-container {
     display: table;
     width: 100%;
     padding: 3em;
     border: none;
 }
-.col{
+
+.col {
     display: table-cell;
 }
-@media only screen and (max-width: 800px){
-    .col{
+
+@media only screen and (max-width: 800px) {
+    .col {
         display: block;
         width: 100%;
     }
 }
 
 
-
-.lien{
+.lien {
     color: black;
     font-family: Arial, sans-serif;
 }
 
-.lien:hover{
+.lien:hover {
     color: #fe001A;
     font-family: Arial, sans-serif;
     font-weight: bold;
 
 }
 
-.bg_pilote{
-    background-color: #50494b;
+.bg_pilote {
+    background-color: grey;
 }
 
-.table{
+.table {
     border-collapse: collapse;
     border: 3px solid black;
     width: 75%;
     background-color: darkgray;
     color: white;
 }
-.table tr:nth-child(even){
+
+.table tr:nth-child(even) {
     background-color: grey;
 }
-.titre{
+
+.table2 {
+
+    border-collapse: collapse;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+}
+
+.titre {
     border: 3px solid black;
     background-color: dimgray;
 }
 
-.bas{
+
+
+.ecu {
+    border: 2px solid black;
+}
+
+.bg_comm {
+    border: 5px solid red;
+    background-color: lightgrey;
+}
+
+.card-text2 {
     background-color: grey;
     text-align: center;
+    height: 8.5em;
+    font-size: 130%;
 }
-.logoecurie{
-    alignment: left;
+
+.fond{
+    background-color: grey;
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+
+.table3 {
+
+    border-collapse: separate;
+    padding-left: 15px;
+    border: 3px solid black;
+    width: 80%;
+    background-color: darkgray;
+    color: white;
+    font-size: 20px;
+}
+.table4 {
+
+    border-collapse: separate;
+    padding-left: 15px;
+    width: 100%;
+    background-color: darkgray;
+    color: white;
+}
+
+
+.th,td{
+    padding: 12px;
+    border-spacing: 5px;
+}
+
+.btn-primary{
+    background-color: dimgray;
+    border: 1px solid red;
+}
+
+.btn-primary:hover{
+    background-color: gray;
+    border: 1px solid red;
+}
+.btn-primary:focus{
+    background-color: dimgray;
+    border: 1px solid red;
+}
+
+.inscription{
+    font-size: 130%;
+
+}
+
+.dropdown-item:focus{
+    background-color: red;
 }

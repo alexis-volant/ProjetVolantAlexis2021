@@ -35,9 +35,9 @@ class PiloteBD extends Pilote
         }
     }
 
-    public function ajoutPilote($idpilote,$abrv,$nompilote,$prenom,$nationalite,$participationgp,$poleposition,$podium,$victoire,$titrechampion,$idecurie){
+    public function ajoutPilote($idpilote,$abrv,$nompilote,$prenom,$nationalite,$participationgp,$poleposition,$podium,$victoire,$titrechampion,$photo,$idecurie){
         try{
-            $query = "select ajoutpilote(:idpilote,:abrv,:nompilote,:prenom,:nationalite,:participationgp,:poleposition,:podium,:victoire,:titrechampion,:idecurie) as retour";
+            $query = "select ajoutpilote(:idpilote,:abrv,:nompilote,:prenom,:nationalite,:participationgp,:poleposition,:podium,:victoire,:titrechampion,:photo,:idecurie) as retour";
             $_resultset = $this->_db->prepare($query);
             $_resultset->bindValue(':idpilote',$idpilote);
             $_resultset->bindValue(':abrv',$abrv);
@@ -49,6 +49,7 @@ class PiloteBD extends Pilote
             $_resultset->bindValue(':podium',$podium);
             $_resultset->bindValue(':victoire',$victoire);
             $_resultset->bindValue(':titrechampion',$titrechampion);
+            $_resultset->bindValue(':photo',$photo);
             $_resultset->bindValue(':idecurie',$idecurie);
             $_resultset->execute();
             $retour = $_resultset->fetchColumn(0);
@@ -91,6 +92,8 @@ class PiloteBD extends Pilote
         //var_dump($_data);
     }
 
+
+
     public function getPiloteByid($idpilote)
     {
         try {
@@ -105,6 +108,26 @@ class PiloteBD extends Pilote
             return $_data;
         } catch (PDOException $e) {
             print 'Echec de la requete' . $e->getMessage();
+        }
+    }
+
+    public function getPiloteByEcu($idecurie){
+        try{
+            $query="select * from pilote where idecurie = :idecurie";
+            $_resultset = $this->_db->prepare($query);
+            $_resultset->bindValue(':idecurie',$idecurie);
+            $_resultset->execute();
+
+
+            while($d = $_resultset->fetch()){
+                $_data[] = new Pilote($d);
+            }
+
+                return $_data;
+
+
+        }catch(PDOException $e){
+            print 'Echec de la requete'.$e->getMessage();
         }
     }
 

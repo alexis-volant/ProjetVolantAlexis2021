@@ -16,7 +16,7 @@ $pilote = new PiloteBD($cnx);
 // idpilote est un parametre de l'url
 // ds js : var parametre = "idpilote="+id;
 extract($_POST,EXTR_OVERWRITE);
-$p[] = $pilote->ajoutPilote($idpilote,$abrv,$nompilote,$prenom,$nationalite,$participationgp,$poleposition,$podium,$victoire,$titrechampion,$idecurie);
+$p[] = $pilote->ajoutPilote($idpilote,$abrv,$nompilote,$prenom,$nationalite,$participationgp,$poleposition,$podium,$victoire,$titrechampion,$photo,$idecurie);
 // conversion du tableau php au format javascript
 
 print json_encode($p);

@@ -3,9 +3,8 @@
 <br>
 <br>
 <br>
-<br>
 <div class="container text-center">
-        <video width="700" controls preload="metadata" >
+        <video width="1000" controls preload="metadata" >
             <source src="admin/images/opening.mp4#t=0.1"
                     type="video/mp4">
         </video>
@@ -19,6 +18,8 @@
         </div>
     </div> -->
 </div>
+<br>
+<br>
 
 <?php
 $ecurie = new EcurieBD($cnx);

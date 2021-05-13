@@ -57,6 +57,24 @@ class EcurieBD extends Ecurie {
         }
     }
 
+    public function getEcurieByPilote($idpilote){
+        try{
+            $query="select * from ecurie where idecurie=(select idecurie from pilote where idpilote= :idpilote)";
+            $_resultset = $this->_db->prepare($query);
+            $_resultset->bindValue(':idpilote',$idpilote);
+            $_resultset->execute();
+
+            while($d = $_resultset->fetch()){
+                $_data[] = new Ecurie($d);
+            }
+            return $_data;
+        }catch(PDOException $e){
+            print 'Echec de la requete'.$e->getMessage();
+        }
+    }
+
+
+
 
 
 }

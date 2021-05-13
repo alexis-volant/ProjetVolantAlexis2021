@@ -69,12 +69,13 @@ $(document).ready(function() {
         var podium = $.trim($('#podium').val());
         var victoire = $.trim($('#victoire').val());
         var titrechampion = $.trim($('#titrechampion').val());
+        var photo = $.trim($('#nompilote').val());
         var idecurie = $.trim($('#idecurie').val());
 
         var parametre = 'idpilote=' + idpilote + '&abrv=' + abrv + '&nompilote=' + nompilote +'&prenom='+ prenom + '&nationalite='+
             nationalite + '&participationgp=' +participationgp +'&poleposition='+poleposition+'&podium='+podium+'&victoire='+victoire+'&titrechampion='+
-            titrechampion+'&idecurie='+idecurie;
-        alert(parametre);
+            titrechampion+'&photo='+photo+'&idecurie='+idecurie;
+
         $.ajax({
             type: 'POST',
             data: parametre,
@@ -119,7 +120,7 @@ $(document).ready(function() {
 
 
         var parametre = 'pseudo=' + pseudo + '&comm=' + comm + '&id_ecurie=' +id_ecurie;
-        alert(parametre);
+        //alert(parametre);
         $.ajax({
             type: 'POST',
             data: parametre,
@@ -139,7 +140,7 @@ $(document).ready(function() {
         var id_comm = $(this).attr("id");
         alert(id_comm);
         var parametre = 'id_comm=' + id_comm;
-        alert(parametre);
+        //alert(parametre);
 
         $.ajax({
             type: 'GET',
