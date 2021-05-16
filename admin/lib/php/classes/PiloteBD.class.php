@@ -26,10 +26,12 @@ class PiloteBD extends Pilote
     public function deletePilote($idpilote)
     {
         try {
-            $query = "DELETE FROM pilote WHERE idpilote= :idpilote";
+            $query = "select suppilote(:idpilote)";
             $_resultset = $this->_db->prepare($query);
             $_resultset->bindValue(':idpilote', $idpilote);
             $_resultset->execute();
+            $retour = $_resultset->fetchColumn(0);
+            return $retour;
         } catch (PDOException $e) {
             print $e->getMessage();
         }

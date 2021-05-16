@@ -19,355 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d41fd0f-5336-4788-887c-1df4f7cc9e6e" name="Default Changelist" comment="Push 13/05 tcpdf">
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/LICENSE.TXT" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/VERSION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/config/tcpdf_config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_1d_html.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_1d_png.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_1d_svg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_1d_svgi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_2d_datamatrix_html.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_2d_datamatrix_png.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_2d_datamatrix_svg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_2d_datamatrix_svgi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_2d_pdf417_html.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_2d_pdf417_png.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_2d_pdf417_svg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_2d_pdf417_svgi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_2d_qrcode_html.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_2d_qrcode_png.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_2d_qrcode_svg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/example_2d_qrcode_svgi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/tcpdf_barcodes_1d_include.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/barcodes/tcpdf_barcodes_2d_include.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/config/tcpdf_config_alt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/data/cert/tcpdf.crt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/data/cert/tcpdf.fdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/data/cert/tcpdf.p12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/data/table_data_demo.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/data/utf8test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_001.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_002.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_003.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_004.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_005.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_006.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_007.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_008.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_009.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_010.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_011.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_012.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_012.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_013.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_014.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_015.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_016.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_017.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_018.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_019.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_020.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_021.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_022.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_023.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_024.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_025.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_026.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_027.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_028.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_029.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_030.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_031.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_032.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_033.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_034.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_035.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_036.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_037.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_038.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_039.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_040.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_041.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_042.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_043.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_044.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_045.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_046.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_047.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_048.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_049.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_050.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_051.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_052.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_053.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_054.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_055.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_056.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_057.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_058.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_059.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_060.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_061.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_062.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_063.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_064.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/example_065.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/image_demo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/image_with_alpha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/logo_example.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/logo_example.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/logo_example.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/tcpdf_box.ai" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/tcpdf_box.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/tcpdf_cell.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/tcpdf_logo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/tcpdf_signature.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/testsvg.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/images/tux.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/cym.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/dan.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/eng.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/est.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/eus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/far.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/fra.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/ger.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/gle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/glg.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/hat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/heb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/hrv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/hun.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/hye.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/ind.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/ita.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/jpn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/kat.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/kor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/mkd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/mlt.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/msa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/nld.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/nob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/pol.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/por.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/ron.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/rus.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/slv.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/spa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/sqi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/srp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/swa.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/swe.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/ukr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/urd.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/yid.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/lang/zho.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/examples/tcpdf_include.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/ae_fonts_2.0/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/ae_fonts_2.0/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/cid0cs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/cid0ct.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/cid0jp.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/cid0kr.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/courier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/courierb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/courierbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/courieri.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavu-fonts-ttf-2.33/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavu-fonts-ttf-2.33/NEWS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavu-fonts-ttf-2.33/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavu-fonts-ttf-2.33/langcover.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavu-fonts-ttf-2.33/status.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavu-fonts-ttf-2.33/unicover.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavu-fonts-ttf-2.34/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavu-fonts-ttf-2.34/NEWS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavu-fonts-ttf-2.34/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavu-fonts-ttf-2.34/langcover.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavu-fonts-ttf-2.34/status.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavu-fonts-ttf-2.34/unicover.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusans.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusans.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansb.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansb.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansbi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansbi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusanscondensed.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusanscondensed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusanscondensed.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusanscondensedb.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusanscondensedb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusanscondensedb.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusanscondensedbi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusanscondensedbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusanscondensedbi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusanscondensedi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusanscondensedi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusanscondensedi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansextralight.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansextralight.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansextralight.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansmono.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansmono.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansmono.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansmonob.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansmonob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansmonob.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansmonobi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansmonobi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansmonobi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansmonoi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansmonoi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavusansmonoi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserif.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserif.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserif.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifb.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifb.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifbi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifbi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifcondensed.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifcondensed.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifcondensed.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifcondensedb.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifcondensedb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifcondensedb.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifcondensedbi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifcondensedbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifcondensedbi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifcondensedi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifcondensedi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifcondensedi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/dejavuserifi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freefont-20100919/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freefont-20100919/CREDITS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freefont-20100919/INSTALL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freefont-20100919/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freefont-20120503/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freefont-20120503/CREDITS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freefont-20120503/INSTALL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freefont-20120503/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freefont-20120503/TROUBLESHOOTING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freefont-20120503/USAGE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freemono.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freemono.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freemono.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freemonob.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freemonob.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freemonob.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freemonobi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freemonobi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freemonobi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freemonoi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freemonoi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freemonoi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freesans.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freesans.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freesans.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freesansb.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freesansb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freesansb.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freesansbi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freesansbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freesansbi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freesansi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freesansi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freesansi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freeserif.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freeserif.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freeserif.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freeserifb.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freeserifb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freeserifb.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freeserifbi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freeserifbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freeserifbi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freeserifi.ctg.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freeserifi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/freeserifi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/helvetica.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/helveticab.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/helveticabi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/helveticai.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/hysmyeongjostdmedium.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/kozgopromedium.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/kozminproregular.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/msungstdlight.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfacourier.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfacourier.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfacourierb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfacourierb.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfacourierbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfacourierbi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfacourieri.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfacourieri.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfahelvetica.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfahelvetica.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfahelveticab.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfahelveticab.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfahelveticabi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfahelveticabi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfahelveticai.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfahelveticai.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfasymbol.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfasymbol.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfatimes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfatimes.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfatimesb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfatimesb.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfatimesbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfatimesbi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfatimesi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfatimesi.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfazapfdingbats.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/pdfazapfdingbats.z" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/stsongstdlight.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/symbol.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/times.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/timesb.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/timesbi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/timesi.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/uni2cid_ac15.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/uni2cid_ag15.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/uni2cid_aj16.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/uni2cid_ak12.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/fonts/zapfdingbats.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/include/barcodes/datamatrix.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/include/barcodes/pdf417.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/include/barcodes/qrcode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/include/sRGB.icc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/include/tcpdf_colors.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/include/tcpdf_filters.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/include/tcpdf_font_data.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/include/tcpdf_fonts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/include/tcpdf_images.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/include/tcpdf_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/tcpdf.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/tcpdf_autoconfig.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/tcpdf_barcodes_1d.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/tcpdf_barcodes_2d.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/tcpdf_import.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/tcpdf_parser.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/tools/convert_fonts_examples.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/lib/php/TCPDF/tools/tcpdf_addfont.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/print_ecurie.php" afterDir="false" />
+    <list default="true" id="3d41fd0f-5336-4788-887c-1df4f7cc9e6e" name="Default Changelist" comment="Push 13/05">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/images/racp20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/js/fonction_jsquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/js/fonction_jsquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/php/classes/CommentaireBD.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/classes/CommentaireBD.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/php/classes/PiloteBD.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/classes/PiloteBD.class.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,6 +52,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
@@ -471,7 +129,9 @@
       <workItem from="1620760135826" duration="360000" />
       <workItem from="1620761093838" duration="3624000" />
       <workItem from="1620845934120" duration="5406000" />
-      <workItem from="1620898670397" duration="28674000" />
+      <workItem from="1620898670397" duration="29452000" />
+      <workItem from="1621154865655" duration="677000" />
+      <workItem from="1621155624945" duration="2792000" />
     </task>
     <task id="LOCAL-00001" summary="Creéation de l'arborescence des fichiers">
       <created>1614870261515</created>
@@ -550,7 +210,49 @@
       <option name="project" value="LOCAL" />
       <updated>1620932766036</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Push 13/05">
+      <created>1620933085254</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620933085254</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Push 13/05">
+      <created>1620933196099</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620933196099</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Push 13/05">
+      <created>1620933234785</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620933234785</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Push 13/05">
+      <created>1620933303389</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620933303389</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Push 13/05">
+      <created>1620933340082</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620933340082</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Push 13/05">
+      <created>1620933719665</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1620933719665</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,8 +277,8 @@
     <MESSAGE value="création page d'accueil" />
     <MESSAGE value="Ajout page de connexion" />
     <MESSAGE value="Ajout page pilote et qq photo" />
-    <MESSAGE value="Push 13/05" />
     <MESSAGE value="Push 13/05 tcpdf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push 13/05 tcpdf" />
+    <MESSAGE value="Push 13/05" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push 13/05" />
   </component>
 </project>

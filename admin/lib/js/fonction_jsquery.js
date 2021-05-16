@@ -4,7 +4,7 @@ $(document).ready(function() {
 //récup valeur de l'input
     $('#recup').blur(function () {
         var recup = $(this).val;
-        alert(recup);
+        //alert(recup);
     });
 
 // tableau pilote modif
@@ -138,7 +138,6 @@ $(document).ready(function() {
     $(".deletecomm").click( function()
     {
         var id_comm = $(this).attr("id");
-        alert(id_comm);
         var parametre = 'id_comm=' + id_comm;
         //alert(parametre);
 

@@ -32,10 +32,12 @@ class CommentaireBD extends Commentaire {
     public function deleteComm($id_comm)
     {
         try {
-            $query = "DELETE FROM commentaire WHERE id_comm= :id_comm";
+            $query = "select suppcomm(:id_comm)";
             $_resultset = $this->_db->prepare($query);
             $_resultset->bindValue(':id_comm', $id_comm);
             $_resultset->execute();
+            $retour = $_resultset->fetchColumn(0);
+            return $retour;
         } catch (PDOException $e) {
             print $e->getMessage();
         }
