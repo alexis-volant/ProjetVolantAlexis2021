@@ -19,12 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d41fd0f-5336-4788-887c-1df4f7cc9e6e" name="Default Changelist" comment="Push 13/05">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="3d41fd0f-5336-4788-887c-1df4f7cc9e6e" name="Default Changelist" comment="Push final 16/05">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/lib/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/lib/js/fonction_jsquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/js/fonction_jsquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/php/classes/CommentaireBD.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/classes/CommentaireBD.class.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/lib/php/classes/PiloteBD.class.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/lib/php/classes/PiloteBD.class.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/accueil.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/accueil.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/page_ecurie.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/page_ecurie.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,19 +77,6 @@
       <recent name="D:\wamp64\www\gitapp\Projet2021" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -131,7 +119,8 @@
       <workItem from="1620845934120" duration="5406000" />
       <workItem from="1620898670397" duration="29452000" />
       <workItem from="1621154865655" duration="677000" />
-      <workItem from="1621155624945" duration="2792000" />
+      <workItem from="1621155624945" duration="2837000" />
+      <workItem from="1621327871949" duration="1508000" />
     </task>
     <task id="LOCAL-00001" summary="Creéation de l'arborescence des fichiers">
       <created>1614870261515</created>
@@ -252,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620933719665</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Push final 16/05">
+      <created>1621158559491</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1621158559491</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +275,7 @@
     <MESSAGE value="Ajout page pilote et qq photo" />
     <MESSAGE value="Push 13/05 tcpdf" />
     <MESSAGE value="Push 13/05" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push 13/05" />
+    <MESSAGE value="Push final 16/05" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push final 16/05" />
   </component>
 </project>

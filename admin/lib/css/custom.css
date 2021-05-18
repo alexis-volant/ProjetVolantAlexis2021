@@ -163,3 +163,9 @@
 .dropdown-item:focus{
     background-color: red;
 }
+
+
+
+.gris{
+    color: grey;
+}

@@ -109,7 +109,7 @@ $(document).ready(function() {
 
             }
         });
-        setTimeout(function(){location.reload()}, 1000);
+        setTimeout(function(){window.location.href='index_.php?page=connexion.php'}, 1000);
     });
 
     //ajout commentaire

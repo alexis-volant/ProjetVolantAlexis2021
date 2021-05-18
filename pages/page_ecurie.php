@@ -165,7 +165,7 @@ if (isset($_GET['idecurie'])) {
 else{?>
         <center>
             <a class="lien" href="index_.php?page=connexion.php">
-                <h3>Connectez vous pour laisser un commentaire</h3>
+                <h4>Connectez vous pour laisser un commentaire</h4>
             </a>
         </center>
 <?php } ?>
